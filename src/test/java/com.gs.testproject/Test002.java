@@ -9,7 +9,7 @@ public class Test002 {
      * /user/xxxx/tmp/b.txt
      */
     @Test
-    public void testString1(){
+    public void testReadFiles(){
         ReadFiles r1 = new ReadFiles();
         System.out.println(r1.getFiles("src/test/test0x02"));
 ///Users/jiamanzhu/JavaJiang/java-Jiang-project/src/test/test0x02
@@ -26,7 +26,7 @@ public class Test002 {
 ```
      */
     @Test
-    public void testString2() {
+    public void testReadJar() {
         ReadJar r1 = new ReadJar();
         System.out.println(r1.getFiles("/Users/jiamanzhu/.m2/repository/"));
     }

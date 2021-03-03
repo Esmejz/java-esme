@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27be2299-46dc-459b-b45a-1c923511dc06" name="Default Changelist" comment="0x02" />
+    <list default="true" id="27be2299-46dc-459b-b45a-1c923511dc06" name="Default Changelist" comment="0x02">
+      <change afterPath="$PROJECT_DIR$/doc/0x03.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/CalculateScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/CsStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/FinanceStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/IPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/Lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/MathStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/Package.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/ReadFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/ReadJar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.computer/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.computer/FlashDisk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.computer/IMobileStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.computer/MobileHardDisk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.computer/Mp3Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.computer/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gs/class3/Test003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gs/class3/TestPackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com.gs.testproject/Test002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.gs.testproject/Test002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +54,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1on7jH2Dd55ftcehDoY4HuPYRfy" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,6 +71,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -42,25 +79,30 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.gs.class003" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gs.class3" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test001.firstTest">
-    <configuration name="Helloworld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gs.testproject.Helloworld" />
+  <component name="RunManager" selected="Application.TestPackage">
+    <configuration name="TestPackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gs.class3.TestPackage" />
       <module name="java-esme" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gs.testproject.*" />
+          <option name="PATTERN" value="com.gs.class3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,65 +110,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test001.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test003.testClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-esme" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gs.testproject.*" />
+          <option name="PATTERN" value="com.gs.class3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gs.testproject" />
-      <option name="MAIN_CLASS_NAME" value="com.gs.testproject.Test001" />
-      <option name="METHOD_NAME" value="firstTest" />
+      <option name="PACKAGE_NAME" value="com.gs.class3" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.class3.Test003" />
+      <option name="METHOD_NAME" value="testClass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test002.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test003.testReadFiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-esme" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gs.testproject.*" />
+          <option name="PATTERN" value="com.gs.class3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gs.testproject" />
-      <option name="MAIN_CLASS_NAME" value="com.gs.testproject.Test002" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.gs.class3" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.class3.Test003" />
+      <option name="METHOD_NAME" value="testReadFiles" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test002.testString1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test003.testReadJar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-esme" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gs.testproject.*" />
+          <option name="PATTERN" value="com.gs.class3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gs.testproject" />
-      <option name="MAIN_CLASS_NAME" value="com.gs.testproject.Test002" />
-      <option name="METHOD_NAME" value="testString1" />
+      <option name="PACKAGE_NAME" value="com.gs.class3" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.class3.Test003" />
+      <option name="METHOD_NAME" value="testReadJar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test002.testString2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test003.testStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-esme" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gs.testproject.*" />
+          <option name="PATTERN" value="com.gs.class3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.gs.testproject" />
-      <option name="MAIN_CLASS_NAME" value="com.gs.testproject.Test002" />
-      <option name="METHOD_NAME" value="testString2" />
+      <option name="PACKAGE_NAME" value="com.gs.class3" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.class3.Test003" />
+      <option name="METHOD_NAME" value="testStudents" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test001.firstTest" />
-        <item itemvalue="JUnit.Test002.testString2" />
-        <item itemvalue="JUnit.Test002.testString1" />
-        <item itemvalue="JUnit.Test002.test1" />
-        <item itemvalue="Application.Helloworld" />
+        <item itemvalue="Application.TestPackage" />
+        <item itemvalue="JUnit.Test003.testStudents" />
+        <item itemvalue="JUnit.Test003.testClass" />
+        <item itemvalue="JUnit.Test003.testReadJar" />
+        <item itemvalue="JUnit.Test003.testReadFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +216,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="edit READMED" />
     <MESSAGE value="class and file" />
     <MESSAGE value="0x02" />
