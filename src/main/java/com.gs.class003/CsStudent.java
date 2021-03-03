@@ -1,6 +1,6 @@
 package com.gs.class003;
 
-/** *
+/**
  * @version: V1.0
  * @author: jiamanzhu
  * @fileName: CsStudent.java
@@ -9,7 +9,7 @@ package com.gs.class003;
  * @date: 03/03/2021
  */
 
-public class CsStudent extends Student implements Lesson, CalculateScore{
+public class CsStudent extends Student implements Lesson, CalculateScore {
     public CsStudent(String name, String gender, int age) {
         super(name, gender, age);
     }
@@ -18,11 +18,12 @@ public class CsStudent extends Student implements Lesson, CalculateScore{
     public final double classTime = 30;
 
     @Override
-    public double calScore(double classTime, double coefficient){
-        double score = classTime  * coefficient;
+    public double calScore(double classTime, double coefficient) {
+        double score = classTime * coefficient;
         System.out.println("计算机学生的分数为： " + score);
         return score;
     }
+
     private double score = calScore(classTime, coefficient);
 
 
@@ -38,7 +39,7 @@ public class CsStudent extends Student implements Lesson, CalculateScore{
                 '}';
     }
 
-    /** *
+    /**
      * @methodsName: getScore
      * @description: 使得外部可以获得score分数
      * @return: double

@@ -1,5 +1,7 @@
 package com.gs.class003;
+
 import java.io.File;
+
 /**
  * @version: V1.0
  * @author: jiamanzhu
@@ -20,7 +22,6 @@ public class ReadJar {
 
     /**
      * @methodsName: getFiles
-     * @description: TODO
      * @param: [path]
      * @return: boolean
      * @throws:

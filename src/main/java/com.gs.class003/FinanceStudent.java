@@ -1,6 +1,6 @@
 package com.gs.class003;
 
-/** *
+/**
  * @version: V1.0
  * @author: jiamanzhu
  * @fileName: FinanceStudent.java
@@ -9,7 +9,7 @@ package com.gs.class003;
  * @date: 03/03/2021
  */
 
-public class FinanceStudent extends Student implements Lesson, CalculateScore{
+public class FinanceStudent extends Student implements Lesson, CalculateScore {
     public FinanceStudent(String name, String gender, int age) {
         super(name, gender, age);
     }
@@ -18,7 +18,7 @@ public class FinanceStudent extends Student implements Lesson, CalculateScore{
     private final double classTime = 60;
 
     @Override
-    public double calScore(double classTime, double coefficient){
+    public double calScore(double classTime, double coefficient) {
         double score = (classTime + 20) * coefficient;
         System.out.println("金融学生的分数为： " + score);
         return score;
@@ -38,7 +38,7 @@ public class FinanceStudent extends Student implements Lesson, CalculateScore{
                 '}';
     }
 
-    /** *
+    /**
      * @methodsName: getScore
      * @description: 使得外部可以获得score分数
      * @return: double

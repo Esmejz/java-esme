@@ -1,13 +1,12 @@
 package com.gs.class003;
 
 /**
- * @InterfaceName: IPackage
  * @author jiamanzhu
+ * @InterfaceName: IPackage
  */
 public interface IPackage {
     /**
      * @methodsName: printInfo
-     * @description: TODO
      * @param: []
      */
     void printInfo();

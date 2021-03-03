@@ -15,7 +15,7 @@ GPA = Total subject grade points  / Total subject credit points
 /**
  * @author jiamanzhu
  */
-public interface CalculateScore{
+public interface CalculateScore {
 
     double calScore(double classTime, double coefficient);
 }

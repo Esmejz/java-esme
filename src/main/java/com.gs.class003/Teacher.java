@@ -1,4 +1,5 @@
 package com.gs.class003;
+
 /**
  * @version: V1.0
  * @author: jiamanzhu
@@ -8,7 +9,7 @@ package com.gs.class003;
  * @date: 03/03/2021
  */
 
-public class Teacher extends Person implements Lesson{
+public class Teacher extends Person implements Lesson {
 
     /**
      * @ConstructorName: Teacher
