@@ -37,5 +37,6 @@ public class TestPackage {
         logger.info("This is info message.");
         // 记录error级别的信息
         logger.config("This is config message.");
+//        logger.debug("This is debug message.");
     }
 }
