@@ -1,6 +1,8 @@
 package com.gs.class003;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @version: V1.0
@@ -21,10 +23,13 @@ import java.io.File;
 public class ReadJar {
 
     /**
-     * @methodsName: getFiles
-     * @param: [path]
-     * @return: boolean
-     * @throws:
+     * 调用类-->得到List<Package>
+     */
+    public List<JavaPackage> ps = new ArrayList();
+
+    /**
+     * @param path
+     * @return false
      */
     public boolean getFiles(String path) {
         // File对象 可以是文件或者目录
@@ -33,16 +38,27 @@ public class ReadJar {
         for (int i = 0; i < array.length; i++) {
             if (array[i].isFile() && array[i].getName().endsWith(".jar")) {
                 String[] tempfiles = array[i].getPath().split("/");
+                /*
                 System.out.println("包名：" + tempfiles[6] + "\n" +
                         "版本号：" + tempfiles[7] + "\n" +
                         "后缀：" + ".jar");
                 System.out.println("完整路径：" + array[i].getPath());
-                String lastsplit = tempfiles[tempfiles.length - 1];
-                System.out.println(lastsplit);
+//                String[] temp = lastsplit.split(".");
+                 */
 
-                String[] temp = lastsplit.split(".");
-//
-////                System.out.println(tempfiles[0]);
+                String lastsplit = tempfiles[tempfiles.length - 1];
+
+                /**
+                 * 扫描包-->创建类
+                 */
+                ps.add(new JavaPackage(lastsplit));
+                /**
+                 * 循环List-->打印结果-->调用接口printInfo方法
+                 */
+                for (JavaPackage p : ps) {
+                    p.printInfo();
+                }
+//                System.out.println(tempfiles[0]);
 //                System.out.println(temp[1]);
 //                System.out.println(temp[2]);
 

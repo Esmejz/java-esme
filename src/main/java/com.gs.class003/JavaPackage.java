@@ -8,18 +8,16 @@ package com.gs.class003;
  * @date: 03/03/2021
  */
 
-public class Package implements IPackage {
+public class JavaPackage implements IPackage {
 
-    private int pnumber;
     private String pname;
 
-    public Package(int pnumber, String pname) {
-        this.pnumber = pnumber;
+    public JavaPackage(String pname) {
         this.pname = pname;
     }
 
     @Override
     public void printInfo() {
-        System.out.println("The package name is: " + this.pname + ", the package number is: " + this.pnumber);
+        System.out.println("The package name is: " + this.pname);
     }
 }
