@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27be2299-46dc-459b-b45a-1c923511dc06" name="Default Changelist" comment="0x03">
+    <list default="true" id="27be2299-46dc-459b-b45a-1c923511dc06" name="Default Changelist" comment="0x03 readjar">
+      <change afterPath="$PROJECT_DIR$/doc/0x04.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class004/CsStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class004/FinanceStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class004/IClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class004/ICredits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class004/MathStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class004/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class004/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.gs.class004/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com.gs.testclass003/Test003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com.gs.testclass004/JSONTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.gs.class003/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/JavaPackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.gs.class003/ReadJar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.gs.class003/ReadJar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gs/class3/Test003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gs/class3/Test003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gs/class3/TestPackage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gs/class3/Test003.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +70,12 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.gs.class3" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
     </key>
@@ -74,9 +86,24 @@
       <recent name="com.gs.class3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test003.TestPackage1">
-    <configuration name="TestPackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gs.class3.TestPackage" />
+  <component name="RunManager" selected="JUnit.JSONTest.jsonTest (1)">
+    <configuration name="JSONTest.jsonTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-esme" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gs.testclass004.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gs.testclass004" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.testclass004.JSONTest" />
+      <option name="METHOD_NAME" value="jsonTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSONTest.jsonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-esme" />
       <extension name="coverage">
         <pattern>
@@ -84,6 +111,26 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.gs.class3" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.class3.JSONTest" />
+      <option name="METHOD_NAME" value="jsonTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSONTest.jsonTestCsStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-esme" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gs.testclass004.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gs.testclass004" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.testclass004.JSONTest" />
+      <option name="METHOD_NAME" value="jsonTestCsStudent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,45 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test003.testStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-esme" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gs.class3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gs.class3" />
-      <option name="MAIN_CLASS_NAME" value="com.gs.class3.Test003" />
-      <option name="METHOD_NAME" value="testStudents" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPackage.TestPackage1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-esme" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gs.class3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gs.class3" />
-      <option name="MAIN_CLASS_NAME" value="com.gs.class3.TestPackage" />
-      <option name="METHOD_NAME" value="TestPackage1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONTest.jsonTest (1)" />
+        <item itemvalue="JUnit.JSONTest.jsonTestCsStudent" />
+        <item itemvalue="JUnit.JSONTest.jsonTest" />
         <item itemvalue="JUnit.Test003.TestPackage1" />
         <item itemvalue="JUnit.Test003" />
-        <item itemvalue="JUnit.TestPackage.TestPackage1" />
-        <item itemvalue="Application.TestPackage" />
-        <item itemvalue="JUnit.Test003.testStudents" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614751640026</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0x03 readjar">
+      <created>1614810878186</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614810878186</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +241,8 @@
     <MESSAGE value="class and file" />
     <MESSAGE value="0x02" />
     <MESSAGE value="0x03" />
-    <option name="LAST_COMMIT_MESSAGE" value="0x03" />
+    <MESSAGE value="0x03 readjar" />
+    <option name="LAST_COMMIT_MESSAGE" value="0x03 readjar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
